@@ -1,0 +1,47 @@
+
+项目中文名称：旅行社供应商管理系统
+项目英文名称：travel
+
+项目语言：php 7.0
+数据库：mysql 5.6\Redis
+
+
+后台框架：laravel
+后台模块插件：
+默认认证auth:php artisan make:auth
+JWT 完成多用户认证
+debugbar 调试工具
+http://laravelacademy.org/post/2774.html
+Entrust  RBAC 权限管理
+http://laravelacademy.org/post/3755.html
+
+前端框架：vue.js
+前端模块插件：
+
+数据库前缀：travel_
+字符编码:utf-8
+
+------注意事项-------
+Packagist 镜像
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+
+命名空间:必须StudlyCaps 大写开头的驼峰命名规范；
+类的命名 必须 遵循 StudlyCaps 大写开头的驼峰命名规范；
+类中的常量所有字母都 必须 大写，单词间用下划线分隔；
+方法名称 必须 符合 camelCase 式的小写开头驼峰命名规范。
+
+
+基本代码规范#
+本篇规范制定了代码基本元素的相关标准，以确保共享的PHP代码间具有较高程度的技术互通性。
+
+关于「能愿动词」的使用#
+
+为了避免歧义，文档大量使用了「能愿动词」，对应的解释如下：
+
+必须 (MUST)：绝对，严格遵循，请照做，无条件遵守；
+一定不可 (MUST NOT)：禁令，严令禁止；
+应该 (SHOULD) ：强烈建议这样做，但是不强求；
+不该 (SHOULD NOT)：强烈不建议这样做，但是不强求；
+可以 (MAY) 和 可选 (OPTIONAL) ：选择性高一点，在这个文档内，此词语使用较少；
+
+1. 概览#
