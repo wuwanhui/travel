@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'My Application',
+    'name' => '易游通',
 
     /*
     |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -178,6 +178,14 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //---自定义
+        App\Providers\BaseServiceProvider::class,//基础服务
+        App\Providers\CommonServiceProvider::class,//公共服务
+        Barryvdh\Debugbar\ServiceProvider::class,//DeBug调试工具
+        Zizaco\Entrust\EntrustServiceProvider::class,//角色模块
+        zgldh\QiniuStorage\QiniuFilesystemServiceProvider::class,//七牛云存储
+
+
     ],
 
     /*
@@ -225,6 +233,13 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+
+        //---自定义
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,//DeBug调试工具
+        'Entrust' => Zizaco\Entrust\EntrustFacade::class,//角色模块
+
+        'Common' => App\Http\Facades\Common::class,
+        'Base' => App\Http\Facades\Base::class,
     ],
 
 ];

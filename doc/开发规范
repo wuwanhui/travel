@@ -1,5 +1,5 @@
 
-项目中文名称：旅行社供应商管理系统
+项目中文名称：易游通-旅行社供应商管理系统
 项目英文名称：travel
 
 项目语言：php 7.0
@@ -9,17 +9,32 @@
 后台框架：laravel
 后台模块插件：
 默认认证auth:php artisan make:auth
+http://laravelacademy.org/post/5974.html
 JWT 完成多用户认证
 debugbar 调试工具
 http://laravelacademy.org/post/2774.html
 Entrust  RBAC 权限管理
 http://laravelacademy.org/post/3755.html
+七牛云存储
+http://laravelacademy.org/post/3850.html
 
 前端框架：vue.js
 前端模块插件：
 
 数据库前缀：travel_
 字符编码:utf-8
+
+图表
+http://echarts.baidu.com/
+
+常用命令
+composer update //更新依赖
+php artisan list //显示命令列表
+php artisan make:migration create_depts_table//创建一个迁移。
+php artisan migrate//执行所有的迁移。
+php artisan cache:clear//清除Laravel缓存文件
+
+
 
 ------注意事项-------
 Packagist 镜像

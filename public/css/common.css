@@ -1,0 +1,288 @@
+
+body {
+    color: #333333;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    font-family: Arial, 微软雅黑, 黑体;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+ul, ul > li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+a {
+    color: #666666;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    blr: expression(this.onFocus = this.blur ())
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: #333;
+}
+
+a:hover {
+    color: #0386ca;
+}
+
+a.active {
+    color: #336699;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+}
+
+Label {
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Arial, 微软雅黑, 黑体;
+}
+
+legend {
+    font-size: 16px;
+    font-family: Arial, 微软雅黑, 黑体;
+    text-decoration: none;
+    line-height: 2em;
+    color: #008000;
+}
+
+legend span {
+    cursor: pointer;
+}
+
+hr {
+    margin: 5px;
+}
+
+span {
+    font-family: Arial, 微软雅黑, 黑体;
+}
+
+.auto {
+    width: auto;
+}
+
+.leftMenu {
+}
+
+.leftMenu .subMenu a {
+    display: block;
+    padding: 10px;
+}
+
+.leftMenu .subMenu li {
+    padding: 0px;
+}
+
+.leftMenu .list-group li.active {
+    background-color: #d9edf7;
+    border-color: #d9edf7;
+}
+
+.leftMenu .list-group li:hover {
+    background-color: #f0f0f0;
+}
+
+/*!
+ * Bootstrap 重载
+ */
+
+.breadcrumb {
+    background-color: #f0f0f0;
+}
+
+.panel {
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-default {
+    border-color: #ffffff;
+}
+
+.panel .panel-heading {
+    border-bottom: 0px solid transparent;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.panel .panel-heading {
+    border-color: #f1f1f1;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dcdcdc;
+    line-height: 30px;
+}
+
+.panel-body li {
+    padding: 5px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.panel-body table {
+
+}
+
+.form-control {
+
+    display: inline-block;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.btn {
+    border-radius: 0px;
+
+}
+
+a.btn-primary {
+    color: #ffffff;
+}
+
+.modal {
+    border-radius: 0px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border: 0px solid #999999;
+}
+
+.modal-content {
+    border-radius: 0px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border: 0px solid #999999;
+}
+
+.required {
+    color: #FF0000;
+}
+
+.field-validation-error {
+    line-height: 30px;
+    text-indent: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+legend {
+    cursor: pointer;
+}
+
+legend.show span {
+    font-size: 16px;
+    font-family: Arial, 微软雅黑, 黑体;
+    text-decoration: none;
+    line-height: 2em;
+    color: #008000;
+    cursor: pointer;
+}
+
+.control-label {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Arial, 微软雅黑, 黑体;
+}
+
+.validation-summary-errors {
+    margin: 10px;
+    border: 1px solid #FF9900;
+    background-color: #ffffcc;
+    line-height: 25px;
+    padding: 5px;
+}
+
+.errors {
+    display: inline-block;
+    color: #FF9900;
+    line-height: 25px;
+    padding: 5px;
+}
+
+.topMenu .navbar-brand {
+    color: #FFFFFF;
+}
+
+.topMenu .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.topMenu {
+    border-width: 0px;
+    color: #FFFFFF;
+    font-family: Arial, 微软雅黑, 黑体;
+    font-size: 16px;
+    border-radius: 0px;
+    background-color: #0386ca
+}
+
+.topMenu .navbar-nav > li > a {
+    color: #a6ddfc;
+    text-decoration: none;
+}
+
+.topMenu .navbar-nav > li > a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topMenu .navbar-nav .active a {
+    background-color: #0271ac;
+    color: #a6ddfc;
+}
+
+.topMenu .navbar-nav .active a:hover {
+    background-color: #0271ac;
+    color: #ffffff;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0px 0px 0 0;
+}
+
+.table thead th {
+    font-family: Arial, 微软雅黑, 黑体;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f1f1f1;
+    line-height: 30px;
+}
+
+.table tbody tr.input {
+    padding: 0px;
+
+}
+
+.table tbody input {
+
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    line-height: 26px;
+}
+
+.pagination {
+    margin: 0px;
+}
